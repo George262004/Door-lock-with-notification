@@ -5,11 +5,11 @@
 #include "ESP8266WiFi.h"
 
 
-const char* ssid = "Silent Valley 2"; //Enter SSID
+const char* ssid = "your ssid"; //Enter SSID
 
-const char* password = "dangerzone"; //Enter Password
+const char* password = "password"; //Enter Password
 const char* host = "api.pushingbox.com";
-const char* devid = "v6F8F132837EA63D";
+const char* devid = "your device id got from pushing box";
 
 int value = 0;
 int servo_angle=0;
